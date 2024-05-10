@@ -1,0 +1,68 @@
+config-version: 2.4
+
+no-permission-error: '&c你没有 &6%PERMISSION% &c权限来使用这个命令。'
+command-not-found: '&c未找到命令！&7请使用 &e/egghunt help &7来查看所有命令。'
+only-player: '&c只有玩家才能执行这个命令。'
+reload-config: '&7配置文件&e重载&a成功&7。'
+player-not-found: '&7系统内&c没有&7玩家&a %PLAYER% &7的记录。'
+
+egg-placed: '&a你成功&2创建了&a一个新彩蛋。&7(ID#%ID%)'
+egg-broken: '&a你成功&c删除了&a一个彩蛋。&7(ID#%ID%)'
+teleport-to-egg: '&a你已被传送到彩蛋 #%ID%。'
+
+egg-found: '&a你找到了一个彩蛋。&7(&e%EGGS_FOUND%&7/&e%EGGS_MAX%&7)'
+egg-already-found: '&c你已经找到过这个彩蛋了。'
+all-eggs-found: '&c你已经找到了所有的彩蛋。'
+no-eggs: '&c当前没有放置的彩蛋。'
+egg-hint: '&2&l成功！&a一个彩蛋位于 &6X: %X%&6, Y: %Y%&6, Z: %Z%&a。'
+hint-cooldown: '&4&l冷却中！&c请等待&6%DAYS%天%HOURS%小时%MINUTES%分钟%SECONDS%秒&c。'
+clicked-same: '&4&l失败！&c你点击了错误的玻璃板、没有玻璃板或重复点击了两次相同的。'
+egg-not-accessed: '&c你现在无法访问这个。'
+
+only-in-placemode: '&c你只能在建造模式下放置或移除彩蛋。使用 &e/egghunt placeEggs &c来进入这个模式。'
+enter-placemode: '&a你现在处于放置模式，可以添加或移除彩蛋了。'
+leave-placemode: '&c你已退出放置模式，不能再添加或移除彩蛋了。'
+
+first-page: '&7你已经在第一页了。'
+last-page: '&7你已经在最后一页了。'
+wait-refresh: '&c请等待再次刷新。'
+block-listed: '&c这个方块已经在列表中了！'
+
+egg-nearby: '&3&l附近有彩蛋'
+
+sound-volume: '&c声音音量只能处于&e0到15&c之间！'
+egg-visible: '&a在&6%TIME_VISIBLE%秒&a内，所有彩蛋可见。'
+egg-show-warning: '&4警告：&a彩蛋对所有玩家可见。'
+armorstand-glow: '&c盔甲架的光亮度只能在&e0到120&c之间！'
+egg-radius: '&c接近彩蛋提示半径只能在&e0到50&c之间！'
+
+command-delete: '&7你已&a成功&c删除&7了&6命令 #%ID%&7。'
+new-command: '&7在&a聊天栏&7中输入&3命令&7或输入&c“cancel”&7返回。此操作将在&22分钟后过期&7。'
+command-cancel: '&c你成功取消了此操作。'
+command-add: '&6命令 #%ID% &7添加&a成功&7。'
+command-expired: '&7你&c未&3及时&7输入&6命令。&7&l请重试！'
+one-command: '&c你一次只能输入一个命令。'
+
+foundeggs-reset: '&7所有&e已找到的彩蛋&7已被&c重置&7。'
+foundeggs-player-reset: '&7玩家&a %PLAYER% &7的所有&e已找到的彩蛋&7已被&c重置&7。'
+
+activate-requirements: '&a已激活所有要求。'
+deactivate-requirements: '&c已停用所有要求。'
+
+collection-disabled: '&c当前集合已禁用。'
+collection-selected: '&7你选择了集合 &6%SELECTION%'
+collection-deleted: '&a成功删除了集合 &6%COLLECTION%'
+
+eggimport-hand: '&7请手持带有&2彩蛋纹理&7的&e玩家头颅&7。'
+eggimport-failed-profile: '&c无法加载玩家个人资料。'
+eggimport-success: '&a成功&7将新的头颅导入到&e放置彩蛋&7中。'
+
+preset-already-exists: '&c该预设已存在。'
+preset-saved: '&a成功&7保存了&e预设 %PRESET%&7。'
+preset-failed-commands: '&c命令太少，无法保存。'
+preset-loaded: '&7已&a成功&7加载&e预设 %PRESET%&7。'
+preset-delete: '&7已&a成功&c删除&e预设 %PRESET%&7。'
+preset-default: '&7已将新的&a默认加载&7预设更改为 &e%PRESET%&7。'
+preset-not-delete-default: '&c你无法删除当前已被选定为默认加载的预设。'
+
+setting-commandfeedback: '&a命令反馈已&4停止使用&a。请手动执行“/gamerule sendCommandFeedback false”或移除“minecraft.admin.command_feedback”权限。'
